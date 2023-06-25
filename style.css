@@ -20,4 +20,60 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 15px;
+    background: url(images/bg-pattern-top-desktop.svg);
+}
+
+.main {
+    max-width: 1140px;
+    box-shadow: 10px 20px 90px -25px rgba(0, 0, 0, 1);
+    background-color: white;
+    padding: 50px 80px;
+}
+
+.top-side {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-text {
+    width: 50%;
+    padding-top: 30px;
+}
+.main-text h1 {
+    color: var(--very-dark-magenta);
+    font-size: 50px;
+    margin-right: 50px;
+    margin-bottom: 1rem;
+}
+.main-text p {
+    color: var(--dark-grayish-magenta);
+    font-weight: 500;
+    line-height: 1.4rem;
+    letter-spacing: 0.2px;
+    font-size: 16px;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+}
+.rating {
+    display: flex;
+    align-items: center;
+    background-color: var(--light-grayish-magenta);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.rating:first-child{
+    right: 90px;
+}
+.rating:nth-child(2){   
+    right: 50px;
+}
+.rating:nth-child(3){
+    right: 0px;
 }
