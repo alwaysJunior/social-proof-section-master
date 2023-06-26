@@ -100,7 +100,7 @@ body {
     align-items: flex-start;
     justify-content: center;
     background-color: var(--very-dark-magenta);
-    gap: 2rem;
+    gap: 1rem;
     margin-right: 10px;
     border-radius: 10px;
     padding: 20px;
